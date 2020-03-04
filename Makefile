@@ -32,6 +32,9 @@ convert:
 	echo "Converting model to FP16"
 	$(DOCKER_CMD) /bin/bash -c "$(SOURCE_CMD) && cd /data && ls && $(MO_CONV16)"
 
+calibrate: convert
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && python3 /opt/intel/openvino/deployment_tools/tools/calibration_tool/calibrate.py -sm -m model32.xml"
+
 benchmark: convert
 	echo "Benchmarking model in FP32"
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK32)"
@@ -46,7 +49,7 @@ shell:
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
 
 clean:
-	rm -f model32.* model16.*
+	rm -f model32*.* model16.* 
 
 help:
 	@echo "convert   - converts a model to FP32/FP16. Depends on OpenVINO version"
