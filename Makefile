@@ -50,7 +50,14 @@ workbench:
 	docker run -it --rm -p 0.0.0.0:5665:5665 -P -e PORT=5665 -v $PWD:/data -e PROXY_HOST_ADDRESS=0.0.0.0 -e http_proxy= -e https_proxy= -e no_proxy= openvino/workbench
 
 shell:
-	$(DOCKER_CMD) /bin/bash
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD"
 
 clean:
 	rm -f model32.* model16.*
+
+help:
+	@echo "convert   - converts a model to FP32/FP16. Depends on OpenVINO version"
+	@echo "benchmark - benchmarks a model and shows performance counters"
+	@echo "workbench - launches OpenVINO workbench web app"
+	@echo "shell     - drops into an OpenVINO shell"
+	@echo "clean     - clears working files"
