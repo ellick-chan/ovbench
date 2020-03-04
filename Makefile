@@ -4,8 +4,8 @@ INPUT_SHAPE=[1,224,224,3]
 
 # OpenVINO tag version
 OV_BASE=openvino/ubuntu18_dev
-OV_VERSION=latest
-#OV_VERSION=2019_R3.1
+#OV_VERSION=latest
+OV_VERSION=2019_R3.1
 
 # OpenVINO commands
 DOCKER_CMD=docker run -it --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
