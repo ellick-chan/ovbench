@@ -23,15 +23,8 @@ BENCHMARK16=$(BENCHMARK) -m model16.xml -pc
 
 all: benchmark
 
-resnet:
-	wget https://zenodo.org/record/2535873/files/resnet50_v1.pb?download=1
-	mv resnet50_v1.pb\?download\=1 model.pb
-
-mobilenet:
-	wget https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_1.0_224_frozen.tgz
-	tar zxvf mobilenet_v1_1.0_224_frozen.tgz 
-	mv mobilenet_v1_1.0_224/frozen_graph.pb model.pb
-	rm -rf mobilenet_v1_1.0_224 mobilenet_v1_1.0_224_frozen.tgz 
+resnet50:
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && python3 resnet50.py"
 
 convert:
 	echo "Converting model to FP32"
