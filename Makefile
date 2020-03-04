@@ -8,7 +8,7 @@ OV_VERSION=latest
 #OV_VERSION=2019_R3.1
 
 # OpenVINO commands
-DOCKER_CMD=docker run -it --rm -v $(PWD):/data -u root $(OV_BASE):$(OV_VERSION)
+DOCKER_CMD=docker run -it --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
 SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh
 APT_PREP=apt update && apt install -y libpython3.6
 
