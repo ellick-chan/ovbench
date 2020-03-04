@@ -23,6 +23,12 @@ BENCHMARK16=$(BENCHMARK) -m model16.xml -pc
 
 all: benchmark
 
+mobilenet:
+	wget https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_1.0_224_frozen.tgz
+	tar zxvf mobilenet_v1_1.0_224_frozen.tgz 
+	mv mobilenet_v1_1.0_224/frozen_graph.pb model.pb
+	rm -rf mobilenet_v1_1.0_224 mobilenet_v1_1.0_224_frozen.tgz 
+
 convert:
 	echo "Converting model to FP32"
 	$(DOCKER_CMD) /bin/bash -c "$(SOURCE_CMD) && cd /data && ls && $(MO_CONV32)"
