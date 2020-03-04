@@ -20,6 +20,7 @@ MO_CONV16=$(MO_CONVERT) --data_type=FP16 --model_name=model16
 BENCHMARK=python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py 
 BENCHMARK32=$(BENCHMARK) -m model32.xml -pc
 BENCHMARK16=$(BENCHMARK) -m model16.xml -pc
+BENCHMARK8 =$(BENCHMARK) -m model32_i8.xml -pc
 
 all: benchmark
 
@@ -34,6 +35,10 @@ convert:
 
 calibrate: convert
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && python3 /opt/intel/openvino/deployment_tools/tools/calibration_tool/calibrate.py -sm -m model32.xml"
+
+benchmark8: calibrate
+	echo "Benchmarking model in INT8"
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK8)"
 
 benchmark: convert
 	echo "Benchmarking model in FP32"
@@ -54,6 +59,8 @@ clean:
 help:
 	@echo "convert   - converts a model to FP32/FP16. Depends on OpenVINO version"
 	@echo "benchmark - benchmarks a model and shows performance counters"
+	@echo "calibrate - convert a model to INT8"
+	@echo "benchmark8- benchmarks an INT8 model and shows performance counters"
 	@echo "workbench - launches OpenVINO workbench web app"
 	@echo "shell     - drops into an OpenVINO shell"
 	@echo "clean     - clears working files"
