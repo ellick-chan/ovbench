@@ -53,6 +53,9 @@ mmdnn:
 workbench:
 	docker run -it --rm -p 0.0.0.0:5665:5665 -P -e PORT=5665 -v $PWD:/data -e PROXY_HOST_ADDRESS=0.0.0.0 -e http_proxy= -e https_proxy= -e no_proxy= openvino/workbench
 
+print_graph:
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && python3 print_graph.py"
+
 shell:
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
 
@@ -65,5 +68,6 @@ help:
 	@echo "calibrate - convert a model to INT8"
 	@echo "benchmark8- benchmarks an INT8 model and shows performance counters"
 	@echo "workbench - launches OpenVINO workbench web app"
+	@echo "print_graph - prints Tensorflow graph layout"
 	@echo "shell     - drops into an OpenVINO shell"
 	@echo "clean     - clears working files"
