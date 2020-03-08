@@ -10,4 +10,4 @@ def load_graph(frozen_graph_filename):
 
 graph = load_graph('model.pb')
 for op in graph.get_operations(): 
-    print(op.name, op.inputs[0] if len(op.inputs) > 0 else '', ' --> ',  op.outputs[0] if len(op.outputs) > 0 else '')
+    print(op.name, op.inputs, ' --> ',  op.outputs)
