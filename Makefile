@@ -47,6 +47,9 @@ benchmark: convert
 	echo "Benchmarking model in FP16"
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK16)"
 
+mmdnn:
+	docker run -it --rm -w /data -v $(PWD):/data mmdnn/mmdnn:cpu.small
+
 workbench:
 	docker run -it --rm -p 0.0.0.0:5665:5665 -P -e PORT=5665 -v $PWD:/data -e PROXY_HOST_ADDRESS=0.0.0.0 -e http_proxy= -e https_proxy= -e no_proxy= openvino/workbench
 
