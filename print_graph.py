@@ -9,5 +9,11 @@ def load_graph(frozen_graph_filename):
     return graph
 
 graph = load_graph('model.pb')
+ops = []
 for op in graph.get_operations(): 
     print(op.name, op.inputs, ' --> ',  op.outputs)
+    ops.append((op.name, op.inputs, op.outputs))
+
+print('-'*50)
+print('First:', ops[0])
+print('Last:', ops[-1])
