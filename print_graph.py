@@ -15,5 +15,5 @@ for op in graph.get_operations():
     ops.append((op.name, op.inputs, op.outputs))
 
 print('-'*50)
-print('First:', ops[0])
-print('Last:', ops[-1])
+print('First:', ops[0][0], ops[0][2][0].shape)
+print('Last:', ops[-1][0], ops[-1][2][0].shape)
