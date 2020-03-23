@@ -38,15 +38,15 @@ calibrate: convert
 
 benchmark8: calibrate
 	echo "Benchmarking model in INT8"
-	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK8)"
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK8)" | tee benchmark8.log
 
 benchmark16: convert
 	echo "Benchmarking model in FP16"
-	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK16)"
-	
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK16)" | tee benchmark16.log
+
 benchmark: convert
 	echo "Benchmarking model in FP32"
-	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK32)"
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK32)" | tee benchmark.log
 
 mmdnn:
 	docker run -it --rm -w /data -v $(PWD):/data mmdnn/mmdnn:cpu.small
