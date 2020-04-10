@@ -24,6 +24,10 @@ def parse_log(logfile='mkldnn_log.csv'):
     print('Total MKLDNN time:', data['time'].sum())
 
     print()
+    print('JIT type breakdown:')
+    print(data.groupby('jit')['time'].sum().sort_values().head(10))
+
+    print()
     print('Op type breakdown:')
     print(data.groupby('type')['time'].sum().sort_values().head(10))
 
