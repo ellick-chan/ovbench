@@ -21,6 +21,8 @@ def parse_log(logfile='mkldnn_log.csv'):
     data = pd.read_csv(logfile, names=['mkl', 'exec', 'type', 'jit', 'pass', 'fmt', 'opt', 'shape', 'time'])
     print(data)
 
+    data = data[data['exec'] == 'exec']
+
     print('Total MKLDNN time:', data['time'].sum())
 
     print()
