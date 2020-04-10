@@ -24,14 +24,17 @@ def parse_log(logfile='mkldnn_log.csv'):
     data = data[data['exec'] == 'exec']
 
     print('Total MKLDNN time:', data['time'].sum())
+    print('Total MKLDNN ops:', data['time'].count())
 
     print()
     print('JIT type breakdown:')
     print(data.groupby('jit')['time'].sum().sort_values().head(10))
+    print(data['jit'].value_counts().head(10))
 
     print()
     print('Op type breakdown:')
     print(data.groupby('type')['time'].sum().sort_values().head(10))
+    print(data['type'].value_counts().head(10))
 
     print()
     print('Shape breakdown:')
