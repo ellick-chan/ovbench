@@ -44,12 +44,12 @@ def parse_log(logfile='mkldnn_log.csv'):
 def stats_comp(name, log1, log2, d1, d2, n=5):
     import pandas as pd
     print(name, 'stats:')
-    jitstat = pd.concat((d1[name].value_counts(), d2[name].value_counts()), axis=1)
+    jitstat = pd.concat((d1[name].value_counts(), d2[name].value_counts()), axis=1, sort=True)
     jitstat.columns = ('1-' + log1, '2-' + log2)
     jitstat['comparison'] = jitstat.iloc[:, 1] / jitstat.iloc[:, 0]
     print(jitstat.sort_values('1-' + log1, ascending=False).head(n))
     print()
-    jitstat = pd.concat((d1.groupby(name)['time'].sum(), d2.groupby(name)['time'].sum()), axis=1)
+    jitstat = pd.concat((d1.groupby(name)['time'].sum(), d2.groupby(name)['time'].sum()), axis=1, sort=True)
     jitstat.columns = ('1-' + log1, '2-' + log2)
     jitstat['comparison'] = jitstat.iloc[:, 1] / jitstat.iloc[:, 0]
     print(jitstat.sort_values('1-' + log1, ascending=False).head(n))
