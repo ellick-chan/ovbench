@@ -51,6 +51,7 @@ def stats_comp(name, log1, log2, d1, d2, n=5):
     print()
     jitstat = pd.concat((d1.groupby(name)['time'].sum(), d2.groupby(name)['time'].sum()), axis=1)
     jitstat.columns = ('1-' + log1, '2-' + log2)
+    jitstat['comparison'] = jitstat.iloc[:, 1] / jitstat.iloc[:, 0]
     print(jitstat.sort_values('1-' + log1, ascending=False).head(n))
 
 def compare(log1, log2):
