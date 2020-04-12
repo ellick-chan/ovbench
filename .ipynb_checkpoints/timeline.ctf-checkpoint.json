@@ -1,0 +1,4402 @@
+{
+    "traceEvents": [
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 0,
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 1,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 2,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030062,
+            "dur": 45,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030138,
+            "dur": 32,
+            "args": {
+                "name": "res4e_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030178,
+            "dur": 23,
+            "args": {
+                "name": "res4c_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030207,
+            "dur": 23,
+            "args": {
+                "name": "res5a_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030236,
+            "dur": 23,
+            "args": {
+                "name": "res4f_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030266,
+            "dur": 23,
+            "args": {
+                "name": "res4c_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030295,
+            "dur": 23,
+            "args": {
+                "name": "res4a_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030324,
+            "dur": 23,
+            "args": {
+                "name": "res5c_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030353,
+            "dur": 23,
+            "args": {
+                "name": "res4e_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030382,
+            "dur": 23,
+            "args": {
+                "name": "res4b_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030411,
+            "dur": 23,
+            "args": {
+                "name": "res4a_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030440,
+            "dur": 22,
+            "args": {
+                "name": "res5c_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030469,
+            "dur": 22,
+            "args": {
+                "name": "res4d_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030498,
+            "dur": 22,
+            "args": {
+                "name": "res4b_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030526,
+            "dur": 23,
+            "args": {
+                "name": "res4a_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030555,
+            "dur": 22,
+            "args": {
+                "name": "res3c_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030584,
+            "dur": 22,
+            "args": {
+                "name": "res2b_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030613,
+            "dur": 22,
+            "args": {
+                "name": "res2a_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030641,
+            "dur": 23,
+            "args": {
+                "name": "res3c_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030670,
+            "dur": 22,
+            "args": {
+                "name": "res3a_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030698,
+            "dur": 23,
+            "args": {
+                "name": "res2a_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030727,
+            "dur": 23,
+            "args": {
+                "name": "res3b_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030756,
+            "dur": 22,
+            "args": {
+                "name": "res3a_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030784,
+            "dur": 22,
+            "args": {
+                "name": "res5b_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030812,
+            "dur": 23,
+            "args": {
+                "name": "res4e_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030841,
+            "dur": 23,
+            "args": {
+                "name": "res3c_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030870,
+            "dur": 22,
+            "args": {
+                "name": "res3d_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030898,
+            "dur": 23,
+            "args": {
+                "name": "res2a_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030927,
+            "dur": 22,
+            "args": {
+                "name": "res4a_branch1/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030955,
+            "dur": 23,
+            "args": {
+                "name": "res3b_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030984,
+            "dur": 22,
+            "args": {
+                "name": "res5b_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031012,
+            "dur": 23,
+            "args": {
+                "name": "res5a_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031041,
+            "dur": 23,
+            "args": {
+                "name": "res4b_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031070,
+            "dur": 23,
+            "args": {
+                "name": "res3d_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031099,
+            "dur": 22,
+            "args": {
+                "name": "res3a_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031127,
+            "dur": 23,
+            "args": {
+                "name": "res2b_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031156,
+            "dur": 22,
+            "args": {
+                "name": "pool1_pad/Pad/paddings",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031184,
+            "dur": 22,
+            "args": {
+                "name": "fc1000/kernel",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031212,
+            "dur": 22,
+            "args": {
+                "name": "res5c_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031240,
+            "dur": 23,
+            "args": {
+                "name": "res4f_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031269,
+            "dur": 23,
+            "args": {
+                "name": "res4d_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031298,
+            "dur": 22,
+            "args": {
+                "name": "res3d_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031326,
+            "dur": 22,
+            "args": {
+                "name": "res2c_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031355,
+            "dur": 22,
+            "args": {
+                "name": "conv1/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031383,
+            "dur": 22,
+            "args": {
+                "name": "res5a_branch1/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031411,
+            "dur": 23,
+            "args": {
+                "name": "res5a_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031440,
+            "dur": 22,
+            "args": {
+                "name": "res3b_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031468,
+            "dur": 23,
+            "args": {
+                "name": "res2c_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031497,
+            "dur": 24,
+            "args": {
+                "name": "_arg_input_1_0_0",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031532,
+            "dur": 22,
+            "args": {
+                "name": "res2b_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031560,
+            "dur": 22,
+            "args": {
+                "name": "conv1_pad/Pad/paddings",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031588,
+            "dur": 23,
+            "args": {
+                "name": "res2c_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031617,
+            "dur": 22,
+            "args": {
+                "name": "res2a_branch1/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031645,
+            "dur": 23,
+            "args": {
+                "name": "res3a_branch1/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031674,
+            "dur": 21,
+            "args": {
+                "name": "avg_pool/Mean/reduction_indices",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031701,
+            "dur": 23,
+            "args": {
+                "name": "res5b_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031730,
+            "dur": 23,
+            "args": {
+                "name": "res4f_branch2b/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031759,
+            "dur": 22,
+            "args": {
+                "name": "res4d_branch2a/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031787,
+            "dur": 22,
+            "args": {
+                "name": "res4c_branch2c/Conv2D/merged_input",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031816,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_0",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklPadWithConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031849,
+            "dur": 5415,
+            "args": {
+                "name": "bn_conv1/FusedBatchNorm/Mul",
+                "op": "_MklPadWithConv2D",
+                "input0": "_arg_input_1_0_0",
+                "input1": "conv1/Conv2D/merged_input",
+                "input2": "conv1_pad/Pad/paddings",
+                "input3": "DMT/_0",
+                "input4": "DMT/_1",
+                "input5": "DMT/_2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817037285,
+            "dur": 377,
+            "args": {
+                "name": "activation/Relu",
+                "op": "_MklRelu",
+                "input0": "bn_conv1/FusedBatchNorm/Mul",
+                "input1": "bn_conv1/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817037677,
+            "dur": 1897,
+            "args": {
+                "name": "Mkl2Tf/_57",
+                "op": "_MklToTf",
+                "input0": "activation/Relu",
+                "input1": "activation/Relu:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Pad",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817039593,
+            "dur": 5875,
+            "args": {
+                "name": "pool1_pad/Pad",
+                "op": "Pad",
+                "input0": "activation/Relu",
+                "input1": "pool1_pad/Pad/paddings"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817045487,
+            "dur": 25,
+            "args": {
+                "name": "DMT/_3",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklMaxPool",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817045524,
+            "dur": 3087,
+            "args": {
+                "name": "max_pooling2d/MaxPool",
+                "op": "_MklMaxPool",
+                "input0": "pool1_pad/Pad",
+                "input1": "DMT/_3"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048632,
+            "dur": 27,
+            "args": {
+                "name": "DMT/_4",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048680,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_7",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048729,
+            "dur": 900,
+            "args": {
+                "name": "bn2a_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "max_pooling2d/MaxPool",
+                "input1": "res2a_branch2a/Conv2D/merged_input",
+                "input2": "max_pooling2d/MaxPool:2",
+                "input3": "DMT/_4"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817049648,
+            "dur": 163,
+            "args": {
+                "name": "activation_1/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2a_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn2a_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817049825,
+            "dur": 23,
+            "args": {
+                "name": "DMT/_5",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817048713,
+            "dur": 1756,
+            "args": {
+                "name": "bn2a_branch1/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "max_pooling2d/MaxPool",
+                "input1": "res2a_branch1/Conv2D/merged_input",
+                "input2": "max_pooling2d/MaxPool:2",
+                "input3": "DMT/_7"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "max_pooling2d/MaxPool",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048611,
+            "id": 0
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "max_pooling2d/MaxPool",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817048713,
+            "id": 0
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "res2a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031639,
+            "id": 1
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "res2a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817048713,
+            "id": 1
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "max_pooling2d/MaxPool:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048611,
+            "id": 2
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "max_pooling2d/MaxPool:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817048713,
+            "id": 2
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_7",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817048702,
+            "id": 3
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_7",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817048713,
+            "id": 3
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817049859,
+            "dur": 3222,
+            "args": {
+                "name": "bn2a_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_1/Relu",
+                "input1": "res2a_branch2b/Conv2D/merged_input",
+                "input2": "activation_1/Relu:1",
+                "input3": "DMT/_5"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817053097,
+            "dur": 98,
+            "args": {
+                "name": "activation_2/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2a_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn2a_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817053207,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_6",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817053240,
+            "dur": 1605,
+            "args": {
+                "name": "bn2a_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_2/Relu",
+                "input1": "res2a_branch2c/Conv2D/merged_input",
+                "input2": "activation_2/Relu:1",
+                "input3": "DMT/_6"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054861,
+            "dur": 36,
+            "args": {
+                "name": "MklInputConversion/_60",
+                "op": "_MklInputConversion",
+                "input0": "bn2a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn2a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn2a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn2a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817050469,
+            "id": 4
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054861,
+            "id": 4
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817050469,
+            "id": 5
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054861,
+            "id": 5
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054908,
+            "dur": 1241,
+            "args": {
+                "name": "add/add",
+                "op": "_MklAdd",
+                "input0": "bn2a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn2a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn2a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn2a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817050469,
+            "id": 6
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054908,
+            "id": 6
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817050469,
+            "id": 7
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn2a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817054908,
+            "id": 7
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817056166,
+            "dur": 310,
+            "args": {
+                "name": "activation_3/Relu",
+                "op": "_MklRelu",
+                "input0": "add/add",
+                "input1": "add/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817056489,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_8",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817056521,
+            "dur": 1634,
+            "args": {
+                "name": "bn2b_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_3/Relu",
+                "input1": "res2b_branch2a/Conv2D/merged_input",
+                "input2": "activation_3/Relu:1",
+                "input3": "DMT/_8"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817058171,
+            "dur": 95,
+            "args": {
+                "name": "activation_4/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2b_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn2b_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817058278,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_9",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817058310,
+            "dur": 2604,
+            "args": {
+                "name": "bn2b_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_4/Relu",
+                "input1": "res2b_branch2b/Conv2D/merged_input",
+                "input2": "activation_4/Relu:1",
+                "input3": "DMT/_9"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817060928,
+            "dur": 107,
+            "args": {
+                "name": "activation_5/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2b_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn2b_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817061046,
+            "dur": 20,
+            "args": {
+                "name": "DMT/_10",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817061076,
+            "dur": 1179,
+            "args": {
+                "name": "bn2b_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_5/Relu",
+                "input1": "res2b_branch2c/Conv2D/merged_input",
+                "input2": "activation_5/Relu:1",
+                "input3": "DMT/_10"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817062270,
+            "dur": 30,
+            "args": {
+                "name": "MklInputConversion/_61",
+                "op": "_MklInputConversion",
+                "input0": "activation_3/Relu",
+                "input1": "bn2b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_3/Relu:1",
+                "input3": "bn2b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817062310,
+            "dur": 1422,
+            "args": {
+                "name": "add_1/add",
+                "op": "_MklAdd",
+                "input0": "activation_3/Relu",
+                "input1": "bn2b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_3/Relu:1",
+                "input3": "bn2b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817063749,
+            "dur": 248,
+            "args": {
+                "name": "activation_6/Relu",
+                "op": "_MklRelu",
+                "input0": "add_1/add",
+                "input1": "add_1/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817064009,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_11",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817064040,
+            "dur": 1260,
+            "args": {
+                "name": "bn2c_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_6/Relu",
+                "input1": "res2c_branch2a/Conv2D/merged_input",
+                "input2": "activation_6/Relu:1",
+                "input3": "DMT/_11"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817065315,
+            "dur": 97,
+            "args": {
+                "name": "activation_7/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2c_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn2c_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817065424,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_12",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817065454,
+            "dur": 2575,
+            "args": {
+                "name": "bn2c_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_7/Relu",
+                "input1": "res2c_branch2b/Conv2D/merged_input",
+                "input2": "activation_7/Relu:1",
+                "input3": "DMT/_12"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817068043,
+            "dur": 96,
+            "args": {
+                "name": "activation_8/Relu",
+                "op": "_MklRelu",
+                "input0": "bn2c_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn2c_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817068151,
+            "dur": 20,
+            "args": {
+                "name": "DMT/_13",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817068181,
+            "dur": 1182,
+            "args": {
+                "name": "bn2c_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_8/Relu",
+                "input1": "res2c_branch2c/Conv2D/merged_input",
+                "input2": "activation_8/Relu:1",
+                "input3": "DMT/_13"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817069378,
+            "dur": 30,
+            "args": {
+                "name": "MklInputConversion/_62",
+                "op": "_MklInputConversion",
+                "input0": "activation_6/Relu",
+                "input1": "bn2c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_6/Relu:1",
+                "input3": "bn2c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817069419,
+            "dur": 1597,
+            "args": {
+                "name": "add_2/add",
+                "op": "_MklAdd",
+                "input0": "activation_6/Relu",
+                "input1": "bn2c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_6/Relu:1",
+                "input3": "bn2c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071035,
+            "dur": 245,
+            "args": {
+                "name": "activation_9/Relu",
+                "op": "_MklRelu",
+                "input0": "add_2/add",
+                "input1": "add_2/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071293,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_14",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071330,
+            "dur": 20,
+            "args": {
+                "name": "DMT/_17",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071379,
+            "dur": 1338,
+            "args": {
+                "name": "bn3a_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_9/Relu",
+                "input1": "res3a_branch2a/Conv2D/merged_input",
+                "input2": "activation_9/Relu:1",
+                "input3": "DMT/_14"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817072733,
+            "dur": 134,
+            "args": {
+                "name": "activation_10/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3a_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn3a_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817072879,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_15",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817071360,
+            "dur": 2995,
+            "args": {
+                "name": "bn3a_branch1/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_9/Relu",
+                "input1": "res3a_branch1/Conv2D/merged_input",
+                "input2": "activation_9/Relu:1",
+                "input3": "DMT/_17"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_9/Relu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071280,
+            "id": 8
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_9/Relu",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817071360,
+            "id": 8
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "res3a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031668,
+            "id": 9
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "res3a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817071360,
+            "id": 9
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_9/Relu:1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071280,
+            "id": 10
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_9/Relu:1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817071360,
+            "id": 10
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_17",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817071350,
+            "id": 11
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_17",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817071360,
+            "id": 11
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817072911,
+            "dur": 3747,
+            "args": {
+                "name": "bn3a_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_10/Relu",
+                "input1": "res3a_branch2b/Conv2D/merged_input",
+                "input2": "activation_10/Relu:1",
+                "input3": "DMT/_15"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817076673,
+            "dur": 71,
+            "args": {
+                "name": "activation_11/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3a_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn3a_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817076755,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_16",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817076786,
+            "dur": 2413,
+            "args": {
+                "name": "bn3a_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_11/Relu",
+                "input1": "res3a_branch2c/Conv2D/merged_input",
+                "input2": "activation_11/Relu:1",
+                "input3": "DMT/_16"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079215,
+            "dur": 31,
+            "args": {
+                "name": "MklInputConversion/_63",
+                "op": "_MklInputConversion",
+                "input0": "bn3a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn3a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn3a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn3a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817074355,
+            "id": 12
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079215,
+            "id": 12
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817074355,
+            "id": 13
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079215,
+            "id": 13
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079257,
+            "dur": 485,
+            "args": {
+                "name": "add_3/add",
+                "op": "_MklAdd",
+                "input0": "bn3a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn3a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn3a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn3a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817074355,
+            "id": 14
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079257,
+            "id": 14
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817074355,
+            "id": 15
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn3a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079257,
+            "id": 15
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079758,
+            "dur": 223,
+            "args": {
+                "name": "activation_12/Relu",
+                "op": "_MklRelu",
+                "input0": "add_3/add",
+                "input1": "add_3/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817079993,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_18",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817080024,
+            "dur": 1581,
+            "args": {
+                "name": "bn3b_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_12/Relu",
+                "input1": "res3b_branch2a/Conv2D/merged_input",
+                "input2": "activation_12/Relu:1",
+                "input3": "DMT/_18"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817081620,
+            "dur": 71,
+            "args": {
+                "name": "activation_13/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3b_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn3b_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817081702,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_19",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817081734,
+            "dur": 2968,
+            "args": {
+                "name": "bn3b_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_13/Relu",
+                "input1": "res3b_branch2b/Conv2D/merged_input",
+                "input2": "activation_13/Relu:1",
+                "input3": "DMT/_19"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817084716,
+            "dur": 68,
+            "args": {
+                "name": "activation_14/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3b_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn3b_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817084795,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_20",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817084826,
+            "dur": 1208,
+            "args": {
+                "name": "bn3b_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_14/Relu",
+                "input1": "res3b_branch2c/Conv2D/merged_input",
+                "input2": "activation_14/Relu:1",
+                "input3": "DMT/_20"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817086048,
+            "dur": 30,
+            "args": {
+                "name": "MklInputConversion/_64",
+                "op": "_MklInputConversion",
+                "input0": "activation_12/Relu",
+                "input1": "bn3b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_12/Relu:1",
+                "input3": "bn3b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817086089,
+            "dur": 477,
+            "args": {
+                "name": "add_4/add",
+                "op": "_MklAdd",
+                "input0": "activation_12/Relu",
+                "input1": "bn3b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_12/Relu:1",
+                "input3": "bn3b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817086582,
+            "dur": 152,
+            "args": {
+                "name": "activation_15/Relu",
+                "op": "_MklRelu",
+                "input0": "add_4/add",
+                "input1": "add_4/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817086745,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_21",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817086776,
+            "dur": 1442,
+            "args": {
+                "name": "bn3c_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_15/Relu",
+                "input1": "res3c_branch2a/Conv2D/merged_input",
+                "input2": "activation_15/Relu:1",
+                "input3": "DMT/_21"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817088232,
+            "dur": 70,
+            "args": {
+                "name": "activation_16/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3c_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn3c_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817088313,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_22",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817088346,
+            "dur": 2856,
+            "args": {
+                "name": "bn3c_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_16/Relu",
+                "input1": "res3c_branch2b/Conv2D/merged_input",
+                "input2": "activation_16/Relu:1",
+                "input3": "DMT/_22"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817091216,
+            "dur": 67,
+            "args": {
+                "name": "activation_17/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3c_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn3c_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817091295,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_23",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817091325,
+            "dur": 1277,
+            "args": {
+                "name": "bn3c_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_17/Relu",
+                "input1": "res3c_branch2c/Conv2D/merged_input",
+                "input2": "activation_17/Relu:1",
+                "input3": "DMT/_23"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817092616,
+            "dur": 29,
+            "args": {
+                "name": "MklInputConversion/_65",
+                "op": "_MklInputConversion",
+                "input0": "activation_15/Relu",
+                "input1": "bn3c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_15/Relu:1",
+                "input3": "bn3c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817092656,
+            "dur": 466,
+            "args": {
+                "name": "add_5/add",
+                "op": "_MklAdd",
+                "input0": "activation_15/Relu",
+                "input1": "bn3c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_15/Relu:1",
+                "input3": "bn3c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817093149,
+            "dur": 147,
+            "args": {
+                "name": "activation_18/Relu",
+                "op": "_MklRelu",
+                "input0": "add_5/add",
+                "input1": "add_5/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817093307,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_24",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817093338,
+            "dur": 1246,
+            "args": {
+                "name": "bn3d_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_18/Relu",
+                "input1": "res3d_branch2a/Conv2D/merged_input",
+                "input2": "activation_18/Relu:1",
+                "input3": "DMT/_24"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817094598,
+            "dur": 68,
+            "args": {
+                "name": "activation_19/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3d_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn3d_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817094677,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_25",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817094707,
+            "dur": 2854,
+            "args": {
+                "name": "bn3d_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_19/Relu",
+                "input1": "res3d_branch2b/Conv2D/merged_input",
+                "input2": "activation_19/Relu:1",
+                "input3": "DMT/_25"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817097575,
+            "dur": 66,
+            "args": {
+                "name": "activation_20/Relu",
+                "op": "_MklRelu",
+                "input0": "bn3d_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn3d_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817097653,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_26",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817097683,
+            "dur": 1203,
+            "args": {
+                "name": "bn3d_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_20/Relu",
+                "input1": "res3d_branch2c/Conv2D/merged_input",
+                "input2": "activation_20/Relu:1",
+                "input3": "DMT/_26"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817098900,
+            "dur": 30,
+            "args": {
+                "name": "MklInputConversion/_66",
+                "op": "_MklInputConversion",
+                "input0": "activation_18/Relu",
+                "input1": "bn3d_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_18/Relu:1",
+                "input3": "bn3d_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817098940,
+            "dur": 503,
+            "args": {
+                "name": "add_6/add",
+                "op": "_MklAdd",
+                "input0": "activation_18/Relu",
+                "input1": "bn3d_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_18/Relu:1",
+                "input3": "bn3d_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099460,
+            "dur": 179,
+            "args": {
+                "name": "activation_21/Relu",
+                "op": "_MklRelu",
+                "input0": "add_6/add",
+                "input1": "add_6/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099651,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_27",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099710,
+            "dur": 39,
+            "args": {
+                "name": "DMT/_30",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099752,
+            "dur": 1739,
+            "args": {
+                "name": "bn4a_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_21/Relu",
+                "input1": "res4a_branch2a/Conv2D/merged_input",
+                "input2": "activation_21/Relu:1",
+                "input3": "DMT/_27"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817101511,
+            "dur": 136,
+            "args": {
+                "name": "activation_22/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4a_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4a_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817101660,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_28",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817099762,
+            "dur": 4389,
+            "args": {
+                "name": "bn4a_branch1/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_21/Relu",
+                "input1": "res4a_branch1/Conv2D/merged_input",
+                "input2": "activation_21/Relu:1",
+                "input3": "DMT/_30"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_21/Relu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099639,
+            "id": 16
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_21/Relu",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817099762,
+            "id": 16
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "res4a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817030949,
+            "id": 17
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "res4a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817099762,
+            "id": 17
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_21/Relu:1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099639,
+            "id": 18
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_21/Relu:1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817099762,
+            "id": 18
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_30",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817099749,
+            "id": 19
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_30",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817099762,
+            "id": 19
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817101692,
+            "dur": 5021,
+            "args": {
+                "name": "bn4a_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_22/Relu",
+                "input1": "res4a_branch2b/Conv2D/merged_input",
+                "input2": "activation_22/Relu:1",
+                "input3": "DMT/_28"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817106730,
+            "dur": 72,
+            "args": {
+                "name": "activation_23/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4a_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4a_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817106813,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_29",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817106845,
+            "dur": 2264,
+            "args": {
+                "name": "bn4a_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_23/Relu",
+                "input1": "res4a_branch2c/Conv2D/merged_input",
+                "input2": "activation_23/Relu:1",
+                "input3": "DMT/_29"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109125,
+            "dur": 31,
+            "args": {
+                "name": "MklInputConversion/_67",
+                "op": "_MklInputConversion",
+                "input0": "bn4a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn4a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn4a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn4a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817104151,
+            "id": 20
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109125,
+            "id": 20
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817104151,
+            "id": 21
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109125,
+            "id": 21
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109167,
+            "dur": 402,
+            "args": {
+                "name": "add_7/add",
+                "op": "_MklAdd",
+                "input0": "bn4a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn4a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn4a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn4a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817104151,
+            "id": 22
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109167,
+            "id": 22
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817104151,
+            "id": 23
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn4a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109167,
+            "id": 23
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109588,
+            "dur": 206,
+            "args": {
+                "name": "activation_24/Relu",
+                "op": "_MklRelu",
+                "input0": "add_7/add",
+                "input1": "add_7/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109805,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_31",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817109840,
+            "dur": 2806,
+            "args": {
+                "name": "bn4b_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_24/Relu",
+                "input1": "res4b_branch2a/Conv2D/merged_input",
+                "input2": "activation_24/Relu:1",
+                "input3": "DMT/_31"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817112667,
+            "dur": 73,
+            "args": {
+                "name": "activation_25/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4b_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4b_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817112752,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_32",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817112783,
+            "dur": 6572,
+            "args": {
+                "name": "bn4b_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_25/Relu",
+                "input1": "res4b_branch2b/Conv2D/merged_input",
+                "input2": "activation_25/Relu:1",
+                "input3": "DMT/_32"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817119378,
+            "dur": 73,
+            "args": {
+                "name": "activation_26/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4b_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4b_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817119463,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_33",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817119497,
+            "dur": 1528,
+            "args": {
+                "name": "bn4b_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_26/Relu",
+                "input1": "res4b_branch2c/Conv2D/merged_input",
+                "input2": "activation_26/Relu:1",
+                "input3": "DMT/_33"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817121039,
+            "dur": 31,
+            "args": {
+                "name": "MklInputConversion/_68",
+                "op": "_MklInputConversion",
+                "input0": "activation_24/Relu",
+                "input1": "bn4b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_24/Relu:1",
+                "input3": "bn4b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817121081,
+            "dur": 340,
+            "args": {
+                "name": "add_8/add",
+                "op": "_MklAdd",
+                "input0": "activation_24/Relu",
+                "input1": "bn4b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_24/Relu:1",
+                "input3": "bn4b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817121437,
+            "dur": 155,
+            "args": {
+                "name": "activation_27/Relu",
+                "op": "_MklRelu",
+                "input0": "add_8/add",
+                "input1": "add_8/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817121604,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_34",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817121635,
+            "dur": 1554,
+            "args": {
+                "name": "bn4c_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_27/Relu",
+                "input1": "res4c_branch2a/Conv2D/merged_input",
+                "input2": "activation_27/Relu:1",
+                "input3": "DMT/_34"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817123204,
+            "dur": 63,
+            "args": {
+                "name": "activation_28/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4c_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4c_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817123278,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_35",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817123309,
+            "dur": 4720,
+            "args": {
+                "name": "bn4c_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_28/Relu",
+                "input1": "res4c_branch2b/Conv2D/merged_input",
+                "input2": "activation_28/Relu:1",
+                "input3": "DMT/_35"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817128048,
+            "dur": 66,
+            "args": {
+                "name": "activation_29/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4c_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4c_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817128126,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_36",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817128157,
+            "dur": 1918,
+            "args": {
+                "name": "bn4c_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_29/Relu",
+                "input1": "res4c_branch2c/Conv2D/merged_input",
+                "input2": "activation_29/Relu:1",
+                "input3": "DMT/_36"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817130089,
+            "dur": 31,
+            "args": {
+                "name": "MklInputConversion/_69",
+                "op": "_MklInputConversion",
+                "input0": "activation_27/Relu",
+                "input1": "bn4c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_27/Relu:1",
+                "input3": "bn4c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817130131,
+            "dur": 484,
+            "args": {
+                "name": "add_9/add",
+                "op": "_MklAdd",
+                "input0": "activation_27/Relu",
+                "input1": "bn4c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_27/Relu:1",
+                "input3": "bn4c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817130632,
+            "dur": 100,
+            "args": {
+                "name": "activation_30/Relu",
+                "op": "_MklRelu",
+                "input0": "add_9/add",
+                "input1": "add_9/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817130744,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_37",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817130775,
+            "dur": 1400,
+            "args": {
+                "name": "bn4d_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_30/Relu",
+                "input1": "res4d_branch2a/Conv2D/merged_input",
+                "input2": "activation_30/Relu:1",
+                "input3": "DMT/_37"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817132189,
+            "dur": 61,
+            "args": {
+                "name": "activation_31/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4d_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4d_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817132262,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_38",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817132292,
+            "dur": 4746,
+            "args": {
+                "name": "bn4d_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_31/Relu",
+                "input1": "res4d_branch2b/Conv2D/merged_input",
+                "input2": "activation_31/Relu:1",
+                "input3": "DMT/_38"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817137057,
+            "dur": 66,
+            "args": {
+                "name": "activation_32/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4d_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4d_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817137134,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_39",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817137165,
+            "dur": 1916,
+            "args": {
+                "name": "bn4d_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_32/Relu",
+                "input1": "res4d_branch2c/Conv2D/merged_input",
+                "input2": "activation_32/Relu:1",
+                "input3": "DMT/_39"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817139096,
+            "dur": 30,
+            "args": {
+                "name": "MklInputConversion/_70",
+                "op": "_MklInputConversion",
+                "input0": "activation_30/Relu",
+                "input1": "bn4d_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_30/Relu:1",
+                "input3": "bn4d_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817139137,
+            "dur": 507,
+            "args": {
+                "name": "add_10/add",
+                "op": "_MklAdd",
+                "input0": "activation_30/Relu",
+                "input1": "bn4d_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_30/Relu:1",
+                "input3": "bn4d_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817139674,
+            "dur": 104,
+            "args": {
+                "name": "activation_33/Relu",
+                "op": "_MklRelu",
+                "input0": "add_10/add",
+                "input1": "add_10/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817139790,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_40",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817139821,
+            "dur": 1536,
+            "args": {
+                "name": "bn4e_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_33/Relu",
+                "input1": "res4e_branch2a/Conv2D/merged_input",
+                "input2": "activation_33/Relu:1",
+                "input3": "DMT/_40"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817141372,
+            "dur": 63,
+            "args": {
+                "name": "activation_34/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4e_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4e_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817141447,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_41",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817141477,
+            "dur": 4908,
+            "args": {
+                "name": "bn4e_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_34/Relu",
+                "input1": "res4e_branch2b/Conv2D/merged_input",
+                "input2": "activation_34/Relu:1",
+                "input3": "DMT/_41"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817146405,
+            "dur": 71,
+            "args": {
+                "name": "activation_35/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4e_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4e_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817146488,
+            "dur": 23,
+            "args": {
+                "name": "DMT/_42",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817146521,
+            "dur": 2080,
+            "args": {
+                "name": "bn4e_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_35/Relu",
+                "input1": "res4e_branch2c/Conv2D/merged_input",
+                "input2": "activation_35/Relu:1",
+                "input3": "DMT/_42"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817148616,
+            "dur": 32,
+            "args": {
+                "name": "MklInputConversion/_71",
+                "op": "_MklInputConversion",
+                "input0": "activation_33/Relu",
+                "input1": "bn4e_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_33/Relu:1",
+                "input3": "bn4e_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817148659,
+            "dur": 579,
+            "args": {
+                "name": "add_11/add",
+                "op": "_MklAdd",
+                "input0": "activation_33/Relu",
+                "input1": "bn4e_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_33/Relu:1",
+                "input3": "bn4e_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817149255,
+            "dur": 111,
+            "args": {
+                "name": "activation_36/Relu",
+                "op": "_MklRelu",
+                "input0": "add_11/add",
+                "input1": "add_11/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817149378,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_43",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817149410,
+            "dur": 1638,
+            "args": {
+                "name": "bn4f_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_36/Relu",
+                "input1": "res4f_branch2a/Conv2D/merged_input",
+                "input2": "activation_36/Relu:1",
+                "input3": "DMT/_43"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817151064,
+            "dur": 65,
+            "args": {
+                "name": "activation_37/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4f_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn4f_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817151141,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_44",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817151172,
+            "dur": 4773,
+            "args": {
+                "name": "bn4f_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_37/Relu",
+                "input1": "res4f_branch2b/Conv2D/merged_input",
+                "input2": "activation_37/Relu:1",
+                "input3": "DMT/_44"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817155963,
+            "dur": 67,
+            "args": {
+                "name": "activation_38/Relu",
+                "op": "_MklRelu",
+                "input0": "bn4f_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn4f_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817156042,
+            "dur": 21,
+            "args": {
+                "name": "DMT/_45",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817156072,
+            "dur": 1990,
+            "args": {
+                "name": "bn4f_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_38/Relu",
+                "input1": "res4f_branch2c/Conv2D/merged_input",
+                "input2": "activation_38/Relu:1",
+                "input3": "DMT/_45"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158077,
+            "dur": 31,
+            "args": {
+                "name": "MklInputConversion/_72",
+                "op": "_MklInputConversion",
+                "input0": "activation_36/Relu",
+                "input1": "bn4f_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_36/Relu:1",
+                "input3": "bn4f_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158119,
+            "dur": 421,
+            "args": {
+                "name": "add_12/add",
+                "op": "_MklAdd",
+                "input0": "activation_36/Relu",
+                "input1": "bn4f_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_36/Relu:1",
+                "input3": "bn4f_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158555,
+            "dur": 99,
+            "args": {
+                "name": "activation_39/Relu",
+                "op": "_MklRelu",
+                "input0": "add_12/add",
+                "input1": "add_12/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158666,
+            "dur": 22,
+            "args": {
+                "name": "DMT/_46",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158703,
+            "dur": 20,
+            "args": {
+                "name": "DMT/_49",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158751,
+            "dur": 3546,
+            "args": {
+                "name": "bn5a_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_39/Relu",
+                "input1": "res5a_branch2a/Conv2D/merged_input",
+                "input2": "activation_39/Relu:1",
+                "input3": "DMT/_46"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817162324,
+            "dur": 162,
+            "args": {
+                "name": "activation_40/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5a_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn5a_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817162500,
+            "dur": 25,
+            "args": {
+                "name": "DMT/_47",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817158733,
+            "dur": 12291,
+            "args": {
+                "name": "bn5a_branch1/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_39/Relu",
+                "input1": "res5a_branch1/Conv2D/merged_input",
+                "input2": "activation_39/Relu:1",
+                "input3": "DMT/_49"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_39/Relu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158654,
+            "id": 24
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_39/Relu",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817158733,
+            "id": 24
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "res5a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817031405,
+            "id": 25
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "res5a_branch1/Conv2D/merged_input",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817158733,
+            "id": 25
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "activation_39/Relu:1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158654,
+            "id": 26
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "activation_39/Relu:1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817158733,
+            "id": 26
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "DMT/_49",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817158723,
+            "id": 27
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "DMT/_49",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817158733,
+            "id": 27
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817162550,
+            "dur": 16156,
+            "args": {
+                "name": "bn5a_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_40/Relu",
+                "input1": "res5a_branch2b/Conv2D/merged_input",
+                "input2": "activation_40/Relu:1",
+                "input3": "DMT/_47"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817178730,
+            "dur": 93,
+            "args": {
+                "name": "activation_41/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5a_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn5a_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817178837,
+            "dur": 28,
+            "args": {
+                "name": "DMT/_48",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817178877,
+            "dur": 8131,
+            "args": {
+                "name": "bn5a_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_41/Relu",
+                "input1": "res5a_branch2c/Conv2D/merged_input",
+                "input2": "activation_41/Relu:1",
+                "input3": "DMT/_48"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187036,
+            "dur": 46,
+            "args": {
+                "name": "MklInputConversion/_73",
+                "op": "_MklInputConversion",
+                "input0": "bn5a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn5a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn5a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn5a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817171024,
+            "id": 28
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187036,
+            "id": 28
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817171024,
+            "id": 29
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187036,
+            "id": 29
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187095,
+            "dur": 305,
+            "args": {
+                "name": "add_13/add",
+                "op": "_MklAdd",
+                "input0": "bn5a_branch1/FusedBatchNorm/Mul",
+                "input1": "bn5a_branch2c/FusedBatchNorm/Mul",
+                "input2": "bn5a_branch1/FusedBatchNorm/Mul:2",
+                "input3": "bn5a_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817171024,
+            "id": 30
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187095,
+            "id": 30
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1585073817171024,
+            "id": 31
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "bn5a_branch1/FusedBatchNorm/Mul:2",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187095,
+            "id": 31
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187421,
+            "dur": 208,
+            "args": {
+                "name": "activation_42/Relu",
+                "op": "_MklRelu",
+                "input0": "add_13/add",
+                "input1": "add_13/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187644,
+            "dur": 27,
+            "args": {
+                "name": "DMT/_50",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817187683,
+            "dur": 6942,
+            "args": {
+                "name": "bn5b_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_42/Relu",
+                "input1": "res5b_branch2a/Conv2D/merged_input",
+                "input2": "activation_42/Relu:1",
+                "input3": "DMT/_50"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817194658,
+            "dur": 94,
+            "args": {
+                "name": "activation_43/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5b_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn5b_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817194772,
+            "dur": 28,
+            "args": {
+                "name": "DMT/_51",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817194813,
+            "dur": 16915,
+            "args": {
+                "name": "bn5b_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_43/Relu",
+                "input1": "res5b_branch2b/Conv2D/merged_input",
+                "input2": "activation_43/Relu:1",
+                "input3": "DMT/_51"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817211753,
+            "dur": 99,
+            "args": {
+                "name": "activation_44/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5b_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn5b_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817211866,
+            "dur": 27,
+            "args": {
+                "name": "DMT/_52",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817211905,
+            "dur": 6033,
+            "args": {
+                "name": "bn5b_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_44/Relu",
+                "input1": "res5b_branch2c/Conv2D/merged_input",
+                "input2": "activation_44/Relu:1",
+                "input3": "DMT/_52"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817217970,
+            "dur": 51,
+            "args": {
+                "name": "MklInputConversion/_74",
+                "op": "_MklInputConversion",
+                "input0": "activation_42/Relu",
+                "input1": "bn5b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_42/Relu:1",
+                "input3": "bn5b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817218034,
+            "dur": 346,
+            "args": {
+                "name": "add_14/add",
+                "op": "_MklAdd",
+                "input0": "activation_42/Relu",
+                "input1": "bn5b_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_42/Relu:1",
+                "input3": "bn5b_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817218399,
+            "dur": 121,
+            "args": {
+                "name": "activation_45/Relu",
+                "op": "_MklRelu",
+                "input0": "add_14/add",
+                "input1": "add_14/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817218535,
+            "dur": 26,
+            "args": {
+                "name": "DMT/_53",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817218573,
+            "dur": 6342,
+            "args": {
+                "name": "bn5c_branch2a/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_45/Relu",
+                "input1": "res5c_branch2a/Conv2D/merged_input",
+                "input2": "activation_45/Relu:1",
+                "input3": "DMT/_53"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817224943,
+            "dur": 95,
+            "args": {
+                "name": "activation_46/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5c_branch2a/FusedBatchNorm/Mul",
+                "input1": "bn5c_branch2a/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817225053,
+            "dur": 27,
+            "args": {
+                "name": "DMT/_54",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817225092,
+            "dur": 16616,
+            "args": {
+                "name": "bn5c_branch2b/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_46/Relu",
+                "input1": "res5c_branch2b/Conv2D/merged_input",
+                "input2": "activation_46/Relu:1",
+                "input3": "DMT/_54"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817241738,
+            "dur": 102,
+            "args": {
+                "name": "activation_47/Relu",
+                "op": "_MklRelu",
+                "input0": "bn5c_branch2b/FusedBatchNorm/Mul",
+                "input1": "bn5c_branch2b/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817241854,
+            "dur": 29,
+            "args": {
+                "name": "DMT/_55",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklConv2D",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817241895,
+            "dur": 6540,
+            "args": {
+                "name": "bn5c_branch2c/FusedBatchNorm/Mul",
+                "op": "_MklConv2D",
+                "input0": "activation_47/Relu",
+                "input1": "res5c_branch2c/Conv2D/merged_input",
+                "input2": "activation_47/Relu:1",
+                "input3": "DMT/_55"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklInputConversion",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817248462,
+            "dur": 45,
+            "args": {
+                "name": "MklInputConversion/_75",
+                "op": "_MklInputConversion",
+                "input0": "activation_45/Relu",
+                "input1": "bn5c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_45/Relu:1",
+                "input3": "bn5c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklAdd",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817248520,
+            "dur": 295,
+            "args": {
+                "name": "add_15/add",
+                "op": "_MklAdd",
+                "input0": "activation_45/Relu",
+                "input1": "bn5c_branch2c/FusedBatchNorm/Mul",
+                "input2": "activation_45/Relu:1",
+                "input3": "bn5c_branch2c/FusedBatchNorm/Mul:2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklRelu",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817248835,
+            "dur": 113,
+            "args": {
+                "name": "activation_48/Relu",
+                "op": "_MklRelu",
+                "input0": "add_15/add",
+                "input1": "add_15/add:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817248963,
+            "dur": 235,
+            "args": {
+                "name": "Mkl2Tf/_58",
+                "op": "_MklToTf",
+                "input0": "activation_48/Relu",
+                "input1": "activation_48/Relu:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817249215,
+            "dur": 255,
+            "args": {
+                "name": "avg_pool/Mean",
+                "op": "Mean",
+                "input0": "activation_48/Relu",
+                "input1": "avg_pool/Mean/reduction_indices"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817249485,
+            "dur": 16413,
+            "args": {
+                "name": "fc1000/MatMul",
+                "op": "MatMul",
+                "input0": "avg_pool/Mean",
+                "input1": "fc1000/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817265918,
+            "dur": 28,
+            "args": {
+                "name": "DMT/_56",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklSoftmax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817265957,
+            "dur": 4612,
+            "args": {
+                "name": "fc1000/Softmax",
+                "op": "_MklSoftmax",
+                "input0": "fc1000/MatMul",
+                "input1": "DMT/_56"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_MklToTf",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817270587,
+            "dur": 36,
+            "args": {
+                "name": "Mkl2Tf/_59",
+                "op": "_MklToTf",
+                "input0": "fc1000/Softmax",
+                "input1": "fc1000/Softmax:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1585073817270635,
+            "dur": 29,
+            "args": {
+                "name": "_retval_fc1000/Softmax_0_0",
+                "op": "_Retval",
+                "input0": "fc1000/Softmax"
+            }
+        }
+    ]
+}
