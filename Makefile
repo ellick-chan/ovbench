@@ -10,7 +10,7 @@ OV_VERSION=2019_R3.1
 # OpenVINO commands
 DOCKER_CMD=docker run -it --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
 DOCKER_GPU_CMD=docker run -it --device /dev/dri --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
-SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh
+SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh && ln -sf /opt/intel/openvino/deployment_tools/model_optimizer/mo.py && ln -sf /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py
 APT_PREP=apt update && apt install -y libpython3.6
 
 MO_CONVERT=python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model $(TF_MODEL) --input_shape $(INPUT_SHAPE)
