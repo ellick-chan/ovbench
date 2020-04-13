@@ -66,6 +66,9 @@ print_graph:
 shell:
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
 
+gpushell:
+	$(DOCKER_GPU_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
+
 clean:
 	rm -f model32*.* model16.* 
 
