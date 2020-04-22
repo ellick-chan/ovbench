@@ -9,7 +9,8 @@ OV_VERSION=2019_R3.1
 
 # OpenVINO commands
 DOCKER_CMD=docker run -it --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
-SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh
+DOCKER_GPU_CMD=docker run -it --device /dev/dri --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
+SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh && ln -sf /opt/intel/openvino/deployment_tools/model_optimizer/mo.py && ln -sf /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py
 APT_PREP=apt update && apt install -y libpython3.6
 
 MO_CONVERT=python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model $(TF_MODEL) --input_shape $(INPUT_SHAPE)
@@ -20,6 +21,7 @@ MO_CONV16=$(MO_CONVERT) --data_type=FP16 --model_name=model16
 BENCHMARK=python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py 
 BENCHMARK32=$(BENCHMARK) -m model32.xml -pc
 BENCHMARK16=$(BENCHMARK) -m model16.xml -pc
+BENCHMARKGPU=$(BENCHMARK) -d GPU -m model16.xml -pc
 BENCHMARK8 =$(BENCHMARK) -m model32_i8.xml -pc
 
 all: benchmark
@@ -48,6 +50,10 @@ benchmark: convert
 	echo "Benchmarking model in FP32"
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARK32)" | tee benchmark.log
 
+benchmarkgpu: convert
+	echo "Benchmarking model in FP16 on GPU"
+	$(DOCKER_GPU_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && cd /data && ls && $(BENCHMARKGPU)" | tee benchmark16.log
+
 mmdnn:
 	docker run -it --rm -w /data -v $(PWD):/data mmdnn/mmdnn:cpu.small
 
@@ -59,6 +65,9 @@ print_graph:
 
 shell:
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
+
+gpushell:
+	$(DOCKER_GPU_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
 
 clean:
 	rm -f model32*.* model16.* 
