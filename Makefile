@@ -4,14 +4,14 @@ INPUT_SHAPE=[1,224,224,3]
 
 # OpenVINO tag version
 OV_BASE=openvino/ubuntu18_dev
-#OV_VERSION=latest
-OV_VERSION=2019_R3.1
+OV_VERSION=latest
+#OV_VERSION=2019_R3.1
 
 # OpenVINO commands
-DOCKER_CMD=docker run -it --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
+DOCKER_CMD=docker run -it --rm -p 8888:8888 -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
 DOCKER_GPU_CMD=docker run -it --device /dev/dri --rm -v $(PWD):/data -w /data -u root $(OV_BASE):$(OV_VERSION)
 SOURCE_CMD=source /opt/intel/openvino/bin/setupvars.sh && ln -sf /opt/intel/openvino/deployment_tools/model_optimizer/mo.py && ln -sf /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py
-APT_PREP=apt update && apt install -y libpython3.6
+APT_PREP=apt update 
 
 MO_CONVERT=python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model $(TF_MODEL) --input_shape $(INPUT_SHAPE)
 
@@ -65,6 +65,9 @@ print_graph:
 
 shell:
 	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
+
+jupyter:
+	$(DOCKER_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && DEBIAN_FRONTEND=noninteractive apt install -y jupyter-notebook libpython3.6 && jupyter notebook --port 8888 --ip 0.0.0.0 --allow-root"
 
 gpushell:
 	$(DOCKER_GPU_CMD) /bin/bash -c "$(APT_PREP) && $(SOURCE_CMD) && bash"
