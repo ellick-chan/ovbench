@@ -1,0 +1,1 @@
+docker run -it --rm -p 8888:8888 -u root -v %cd%:/data -w /data openvino/ubuntu18_dev
