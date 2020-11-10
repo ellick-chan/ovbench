@@ -12,13 +12,13 @@ def run_workload(outfile='mkldnn_log.csv'):
 
     with open(outfile, 'w') as f:
         for l in output.split('\n'):
-            if 'mkldnn' in l and 'exec' in l:
+            if ( 'mkldnn' in l or 'dnnl' in l ) and 'exec' in l:
                 print(l)
                 f.write(l + '\n')
 
 def load_log(log):
     import pandas as pd
-    data = pd.read_csv(log, names=['mkl', 'exec', 'type', 'jit', 'pass', 'fmt', 'opt', 'shape', 'time'])
+    data = pd.read_csv(log, names=['mkl', 'exec', 'eng', 'type', 'jit', 'pass', 'fmt', 'attr', 'opt', 'shape', 'time'])
     data = data[data['exec'] == 'exec']
     return data
 
@@ -61,7 +61,7 @@ def compare(log1, log2):
     d1 = load_log(log1)
     d2 = load_log(log2)
 
-    print('Total time %s: %0.2f\t---  %s: %0.2f' % (log1, d1['time'].sum(), log2, d2['time'].sum()))
+    print('Total time %s: %0.2f\t\t---  %s: %0.2f' % (log1, d1['time'].sum(), log2, d2['time'].sum()))
     print('Total  ops  %s: %d\t\t---  %s: %d'    % (log1, d1['time'].count(), log2, d2['time'].count()))
 
     print()
